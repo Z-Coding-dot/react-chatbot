@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+@import "tailwindcss";
+@custom-variant dark (&:where(.dark, .dark *));
+
+
+body{
+    font-family: "Roboto", sans-serif ;
+}
+
+@theme{
+    --color-dark-100: #333537;
+    --color-light-100: #e1e1e1
+}
+
+@layer base{
+
+    .dark {
+        background-color: #212529;
+        color: #f8f9fa;
+    }
+
+
+}
